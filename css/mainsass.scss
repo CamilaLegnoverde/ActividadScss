@@ -27,20 +27,7 @@ body {
 p {
     @include cool-p;
 }
-.card {
-    &:hover{
-        transform: scale(1.2);
-        background-color:#99ccff ;
-    }
-    &2:hover{
-        transform: scale(1.2);
-        background-color:#bb99ff ;
-    }
-    &3:hover{
-        transform: scale(1.2);
-        background-color:#99ffcc ;
-    }
-}
+
 .boton {
     &:hover {
         filter: brightness(50%);
