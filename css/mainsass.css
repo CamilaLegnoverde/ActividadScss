@@ -11,7 +11,7 @@
           align-items: center;
 }
 
-.flex-container .card {
+.flex-container .card, .flex-container .card2, .flex-container .card3 {
   background-color: #797979;
   height: 600px;
   width: 300px;
@@ -23,12 +23,7 @@
           box-shadow: 20px 20px 60px #a9a9a9, -20px -20px 60px #e5e5e5;
 }
 
-.flex-container .card:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-}
-
-.flex-container .card .flex-boton {
+.flex-container .card .flex-boton, .flex-container .card2 .flex-boton, .flex-container .card3 .flex-boton {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -45,7 +40,7 @@
 }
 
 body {
-  background-color: #cce6ff;
+  background-color: #b3daff;
 }
 
 p {
@@ -55,6 +50,24 @@ p {
   font-style: italic;
   color: #000e0e;
   text-align: center;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  background-color: #99ccff;
+}
+
+.card2:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  background-color: #bb99ff;
+}
+
+.card3:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  background-color: #99ffcc;
 }
 
 .boton, .boton-secundario, .boton-secundario-error {
@@ -67,7 +80,7 @@ p {
   margin: 5px;
   padding: 5px;
   border-radius: 10px;
-  background-color: lightskyblue;
+  background-color: #ffd633;
 }
 
 .boton:hover, .boton-secundario:hover, .boton-secundario-error:hover {
@@ -76,7 +89,7 @@ p {
 }
 
 .boton-secundario {
-  background-color: white;
+  background-color: #9fff80;
 }
 
 .boton-secundario-error {

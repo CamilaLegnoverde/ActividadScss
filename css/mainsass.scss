@@ -21,22 +21,35 @@
 }
 
 body {
-    background-color: #cce6ff;
+    background-color: #b3daff;
 }
 
 p {
     @include cool-p;
 }
-
+.card {
+    &:hover{
+        transform: scale(1.2);
+        background-color:#99ccff ;
+    }
+    &2:hover{
+        transform: scale(1.2);
+        background-color:#bb99ff ;
+    }
+    &3:hover{
+        transform: scale(1.2);
+        background-color:#99ffcc ;
+    }
+}
 .boton {
     &:hover {
         filter: brightness(50%);
     }
     @include cool-button;
-    background-color: lightskyblue;
+    background-color: #ffd633;
     &-secundario {
         @extend .boton;
-        background-color: white;
+        background-color: #9fff80;
         &-error {
             @extend .boton;
             background-color: rgb(250, 150, 150);
